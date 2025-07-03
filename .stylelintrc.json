@@ -1,15 +1,16 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "at-rule-no-unknown": true,
-    "block-no-empty": true,
-    "color-no-invalid-hex": true,
-    "comment-no-empty": true,
-    "declaration-block-no-duplicate-properties": true,
-    "declaration-block-no-shorthand-property-overrides": true,
-    "font-family-no-duplicate-names": true,
-    "function-calc-no-unspaced-operator": true,
-    "keyframe-declaration-no-important": true,
-    "media-feature-name-no-unknown": true
+    "color-hex-case": "lower",
+    "font-family-name-quotes": "always-where-recommended",
+    "function-url-quotes": "always",
+    "number-leading-zero": "always",
+    "unit-case": "lower",
+    "property-case": "lower",
+    "selector-type-case": "lower",
+    "value-keyword-case": "lower",
+    "declaration-block-trailing-semicolon": "always",
+    "length-zero-no-unit": true,
+    "color-no-invalid-hex": true
   }
 }
