@@ -1,16 +1,9 @@
 {
-  "extends": "stylelint-config-standard",
   "rules": {
-    "color-hex-case": "lower",
-    "font-family-name-quotes": "always-where-recommended",
-    "function-url-quotes": "always",
-    "number-leading-zero": "always",
-    "unit-case": "lower",
-    "property-case": "lower",
-    "selector-type-case": "lower",
+    "declaration-block-no-duplicate-properties": true,
+    "no-duplicate-selectors": true,
     "value-keyword-case": "lower",
-    "declaration-block-trailing-semicolon": "always",
-    "length-zero-no-unit": true,
-    "color-no-invalid-hex": true
+    "selector-type-case": "lower",
+    "block-no-empty": true
   }
 }
