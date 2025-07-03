@@ -1,9 +1,12 @@
 {
-  "name": "travelease",
-  "version": "1.0.0",
-  "devDependencies": {
-    "htmlhint": "^1.1.0",
-    "stylelint": "^16.2.0",
-    "stylelint-config-standard": "^36.0.0"
-  }
+  "tagname-lowercase": true,
+  "attr-lowercase": true,
+  "attr-value-double-quotes": true,
+  "doctype-first": true,
+  "id-unique": true,
+  "src-not-empty": true,
+  "alt-require": true,
+  "space-tab-mixed-disabled": "space",
+  "id-class-value": "dash",
+  "style-disabled": true
 }
